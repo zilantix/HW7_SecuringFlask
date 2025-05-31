@@ -1,0 +1,48 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+.env/
+.env.*
+
+# Secrets and credentials
+*.pem
+*.key
+*.crt
+secrets.json
+*.env
+
+# Docker-related
+*.pid
+*.log
+docker-compose.override.yml
+
+# Ignore Docker volumes (optional)
+volumes/
+data/
+
+# macOS metadata
+.DS_Store
+
+# IDE/editor folders
+.vscode/
+.idea/
+
+# Test/report output
+.coverage
+htmlcov/
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# Trivy, pip-audit, or bandit cache
+.trivy/
+.pip-audit/
+bandit.json
+

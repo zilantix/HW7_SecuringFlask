@@ -1,0 +1,14 @@
+sudo tee /etc/docker/daemon.json > /dev/null <<EOF
+{
+  "Live-restore": true,
+  "no-new-privileges": true,
+  "log-driver": "json-file",
+  "log-opts": {
+    "max-size": "10m",
+    "max-file": "3"
+  },
+  "userland-proxy": false
+}
+EOF
+sudo systemctl restart docker
+

@@ -1,0 +1,4 @@
+Flask==3.0.3
+pip>=23.3
+setuptools>=78.1.1
+
